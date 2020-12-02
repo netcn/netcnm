@@ -6,43 +6,10 @@
 	<meta name="keywords" content="手机网址,平板网址,上网导航,网址之家,网址大全,网址导航,百度,搜狗,好搜,谷歌,必应,腾讯,新浪,搜狐,凤凰,环球,新华,人民,央视,微博,微信,优酷,土豆,爱奇艺,时光,虾米,天涯,豆瓣,知乎,人人,贴吧,和讯,雪球,汽车之家,手机之家,太平洋,快科技,3DM,斗鱼,58,17173,电玩巴士,4399,游戏狗,携程,穷游,蚂蜂窝,点评,无忌,39健康,摇篮,爱美,佳缘,智联,起点,西陆,虎扑,果壳,澎湃,netcn导航"/>
 	<meta name="description" content="最简洁的网址导航。绿色、免费、简单、直链、无弹窗的网站大全。便捷上网，简单高效。"/>
 	<title>NetCN导航_手机上网导航_移动网址导航</title>
-	<link rel="stylesheet" type="text/css" media="screen"  href="style.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link rel="shortcut icon" href="favicon.ico" />
 </head>
 <body>
-<script  type="text/javascript">
-//设首页
-function SetHome(obj,url){
-    try{
-        obj.style.behavior='url(#default#homepage)';
-        obj.setHomePage(url);
-    }catch(e){
-        if(window.netscape){
-            try{
-                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
-            }catch(e){
-                alert("抱歉，此操作被浏览器拒绝！\n\n请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为'true'");
-            }
-        }else{
-            alert("抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将【"+url+"】设置为首页。");
-        }
-    }
-}
-//加收藏
-function AddFavorite(title, url) {
-    try {
-        window.external.addFavorite(url, title);
-    }
-    catch (e) {
-        try {
-            window.sidebar.addPanel(title, url, "");
-        }
-        catch (e) {
-            alert("抱歉，您所使用的浏览器无法完成此操作。\n\n加入收藏失败，请使用Ctrl+D进行添加");
-        }
-    }
-}
-</script>
 <div align="center">
 <table id="table1" cellpadding="3" width="99%">
 <tbody>
@@ -51,10 +18,6 @@ function AddFavorite(title, url) {
 	<tr>
 		<td align="center"><font face="Verdana" color="#000080"><b>
 		<font style="font-size: 42pt">net</font></b></font><b><font face="Verdana" style="font-size: 42pt"><font color="#FF0000">cn</font>.org</font></b></td>
-		<td align="center">&nbsp;</td>
-		<td align="center"><a href="javascript:void(0);" onclick="SetHome(this,'https://www.netcn.org/');">
-		<font size="6">设首页</font></a><font size="6"> <a href="javascript:void(0);" onclick="AddFavorite('netcn导航',location.href)">加收藏</a></font></td>
-		<td align="center"><div class="bshare-custom icon-medium-plus"><div class="bsPromo bsPromo2"></div><a title="分享到微信" class="bshare-weixin"></a><a title="分享到微博" class="bshare-sinaminiblog"></a><a title="分享到贴吧" class="bshare-itieba"></a></div><script type="text/javascript" charset="utf-8" src="https://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=1&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="https://static.bshare.cn/b/bshareC0.js"></script>
 	</tr>
 </table>
 </td>
@@ -92,7 +55,7 @@ function AddFavorite(title, url) {
 <tr>
 <td height="90"><font style="font-size: 42pt"><img border="0" src="/favicon/youku.png" width="32" height="32"><a href="https://www.youku.com/" target="_blank"">优酷</a> <img border="0" src="/favicon/tudou.png" width="32" height="32"><a href="https://www.tudou.com/" target="_blank"">土豆</a> <img border="0" src="/favicon/iqiyi.png" width="32" height="32"><a href="https://www.iqiyi.com/" target="_blank"">爱奇艺</a> 
 <img border="0" src="/favicon/bilibili.png" width="32" height="32"><a target="_blank" href="https://www.bilibili.com/">Bilibili</a> 
-<img border="0" src="/favicon/acfun.png" width="32" height="32"><a target="_blank" href="https://www.acfun.tv/">Acfun</a></font></td>
+<img border="0" src="/favicon/acfun.png" width="32" height="32"><a target="_blank" href="https://www.acfun.cn/">Acfun</a></font></td>
 </tr>
 <tr>
 <td height="90"><font style="font-size: 42pt">
